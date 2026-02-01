@@ -225,8 +225,6 @@
     let timerId = null;             // 인터벌 타이머
     let wakeLock = null;            // 화면 꺼짐 방지 객체
 
-    // 오디오 비프음 생성
-    const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 
     // 화면 꺼짐 방지 요청 
     async function requestWakeLock() {
